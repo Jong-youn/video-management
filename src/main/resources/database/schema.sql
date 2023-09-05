@@ -16,7 +16,7 @@ INSERT INTO role (name)
 CREATE TABLE IF NOT EXISTS user
 (
     id             BIGINT NOT NULL AUTO_INCREMENT,
-    role_id        BIGINT NOT NULL DEFAULT 1,
+    role_id        BIGINT NULL DEFAULT 1,
     email          VARCHAR(300) NOT NULL,
     password       VARCHAR(500) NOT NULL,
     name           VARCHAR(300),
