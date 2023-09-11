@@ -1,6 +1,4 @@
-# 제네시스랩 백엔드 채용 과제 : 회원 비디오 관리기능
-### 작업자: 이종연(jayylee.dev@gmail.com)
-
+# 회원 비디오 관리기능
 
 ### Database schema
 1. 유저(user)
@@ -76,7 +74,7 @@
 
 ## 유저 로그인
 토큰 방식으로 구현
-access token 구현(refresh token은 구현하지 못했습니다)
+access token 구현
 spring security 사용
 ### API 명세
 | Method | URL                | 예시                   |
